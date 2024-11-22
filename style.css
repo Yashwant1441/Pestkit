@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    width: 100%;
+    background-color: #fdf001
+}
+.container-fluid1{
+    width: 100%;
+    background-color:#111
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+    border: 1px solid black;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.d-flex1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.middle{
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+.border{
+    border: 1px solid red;
+}
+.border-radius{
+    border-radius: 20px ;
+}
+.boxline{
+    border-left: 1px solid #111 ;
+    height: 36px;
+}
+.hide0{
+    display: none ;
+}
+ 
+
+
+.h-1{
+    height: 100px;
+}
+.h-50{
+    height: 50px;
+}
+.h-2{
+    height: 200px;
+}
+.h-3{
+    height: 300px;
+}
+.h-4{
+    height: 400px;
+}
+.h-5{
+    height: 500px;
+}
+
+
+.w-1{
+    width: 100%;
+}
+.w-2{
+    width: 50%;
+}
+.w-3{
+    width: 33.33%;
+}
+.w-4{
+    width: 25%;
+}
+.w-5{
+    width: 20%;
+}
+.w-10{
+    width: 10%;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.w-15{
+    width: 15%;
+}
+.w-40{
+    width: 40%;
+}
+.wp-4{
+    width: 57px;
+}
+
+
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-1{
+    padding: 5px 12px;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+ 
+
+.mt-40{
+    margin-top: 40px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-5{
+    margin-bottom: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+
+
+.text-end{
+    text-align: end;
+}
+.text-center{
+    text-align: center;
+}
+ 
+
+.fluid1{
+    color: #fdf001 
+}
+.fluid2{
+    color: #555
+}
+.fluid3{
+    color: #111 
+}
+.fluid4{
+    color: #fff
+}
+
+.box a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.font1{
+    font-family: "Open", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.font3{
+    font-family: "Nunito", sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.open{
+    font-family: "Open", sans-serif;
+}
+.nunito{
+    font-family: "Nunito", sans-serif; 
+}
+
+.end{
+    justify-content: end;
+}
+.start{
+    justify-content: start;
+}
