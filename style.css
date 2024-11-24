@@ -15,7 +15,7 @@
 .container{
     max-width: 1320px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .d-flex{
     display: flex;
@@ -139,8 +139,8 @@
 .mt-10{
     margin-top: 10px;
 }
-.mt-12{
-    margin-top: 12px;
+.mt-7{
+    margin-top: 7px;
 }
 .mt-5{
     margin-top: 5px;
