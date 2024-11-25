@@ -15,18 +15,19 @@
 .container{
     max-width: 1320px;
     margin: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .d-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* align-items: center; */
 }
 .d-flex1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .middle{
     justify-content: center;
@@ -35,7 +36,7 @@
 .box{
     width: 100%;
     height: 100%;
-    /* background-color: bisque; */
+    background-color: bisque;
 }
 .border{
     border: 1px solid red;
@@ -43,12 +44,21 @@
 .border-radius{
     border-radius: 20px ;
 }
+.border-radius10{
+    border-radius: 10px;
+}
 .boxline{
     border-left: 1px solid #111 ;
     height: 36px;
 }
 .hide0{
     display: none ;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
 }
  
 
@@ -70,6 +80,12 @@
 }
 .h-5{
     height: 500px;
+}
+.h-7{
+    height: 700px;
+}
+.h-100{
+    height: 100%;
 }
 
 
@@ -179,6 +195,9 @@
 .fluid4{
     color: #fff
 }
+.background1{
+    background-color: #F5F6F6;
+}
 
 .box a{
     display: inline-block;
@@ -198,6 +217,12 @@
     font-weight: 800;
     line-height: 1.2;
 }
+.font4{
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    color: #555;
+    padding: 16px;
+}
 
 .open{
     font-family: "Open", sans-serif;
@@ -211,4 +236,12 @@
 }
 .start{
     justify-content: start;
+}
+.border0{
+    border: none;
+}
+
+.h5{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
 }
