@@ -33,6 +33,9 @@
     justify-content: center;
     align-content: center;
 }
+.jc{
+    justify-content: space-between;
+}
 .box{
     width: 100%;
     height: 100%;
@@ -87,6 +90,9 @@
 .h-100{
     height: 100%;
 }
+.h-112{
+    height: 112px;
+}
 
 
 .w-1{
@@ -122,6 +128,9 @@
 .wp-4{
     width: 57px;
 }
+.w-100{
+    width: 93px;
+}
 
 
 .p-10{
@@ -129,6 +138,9 @@
 }
 .p-20{
     padding: 20px;
+}
+.p-30{
+    padding: 30px;
 }
 .p-5{
     padding: 5px;
@@ -140,6 +152,9 @@
     padding: 5px 12px;
     font-size: 1.25rem;
     line-height: 1;
+}
+.pl{
+    padding-left: 0px;
 }
  
 
@@ -198,6 +213,12 @@
 .background1{
     background-color: #F5F6F6;
 }
+.bg2{
+    background-color: #111;
+}
+.bg3{
+    background-color: #fdf001;
+}
 
 .box a{
     display: inline-block;
@@ -223,6 +244,9 @@
     color: #555;
     padding: 16px;
 }
+.font5{
+    font-size: 4rem;
+}
 
 .open{
     font-family: "Open", sans-serif;
@@ -244,4 +268,62 @@
 .h5{
     font-family: "Nunito", sans-serif;
     font-size: 20px;
+}
+
+.box::before{
+     box-sizing: border-box;
+}
+
+.fa-solid{
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+ 
+.box1::before{
+    content: " ";
+    width: 100%;
+    height: 60%;
+    background-color: #fdf001;
+    position: absolute;
+    border-radius: 10px;
+    top: 280px;
+    left: 0px;
+    z-index: 1;
+}
+.box1::after{
+    content: " ";
+    width: 100%;
+    height: 50%;
+    background-color: #111;
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.box2{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 15px;
+    transform: rotate(25deg);
+    background:#111;
+}
+.box3{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    right: 15px;
+    transform: rotate(-25deg);
+    background:#111;
+}
+.box img{
+    z-index: 2;
 }
