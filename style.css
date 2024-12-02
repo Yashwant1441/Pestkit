@@ -86,6 +86,9 @@
 .fw-4{
     font-weight: 400;
 }
+.fw-5{
+    font-weight: 500;
+}
  
 
 
@@ -207,6 +210,9 @@
 }
 .mt-5{
     margin-top: 5px;
+}
+.mt-24{
+    margin-top: 24px;
 }
 .mr-5{
     margin-right: 5px;
@@ -431,3 +437,64 @@
     border-radius: 50%;
 }
 
+
+.box5::before{
+    content: " ";
+    width: 100%;
+    height: 60%;
+    background-color: #fdf001;
+    position: absolute;
+    border-radius: 10px;
+    top: 111px;
+    left: 0px;
+    z-index: 1;
+}
+.box5::after{
+    content: " ";
+    width: 100%;
+    height: 50%;
+    background-color: #111;
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.box6{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    left: 5px;
+    transform: rotate(25deg);
+    background:#111;
+    /* border: 1px solid red; */
+}
+.box7{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    right: 5px;
+    transform: rotate(-25deg);
+    background:#111;
+    /* border: 1px solid red; */
+}
+
+.animation a{
+    z-index: 5;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all 0.5s;
+}
+.animation:hover a{
+    transform: translate(-50%, -50%) scale(1) rotate(-360deg);
+    opacity: 1;
+}
