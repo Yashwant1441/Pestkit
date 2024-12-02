@@ -50,6 +50,9 @@
 .border-radius10{
     border-radius: 10px;
 }
+.border-radius50{
+    border-radius: 50px;
+}
 .boxline{
     border-left: 1px solid #111 ;
     height: 36px;
@@ -62,6 +65,26 @@
 }
 .absolute{
     position: absolute;
+}
+ 
+.lh{
+    line-height: 1.2;
+}
+.lh1{
+    line-height: 1.8;
+}
+.lh5{
+    line-height: 1.5;
+}
+
+.fw-7{
+    font-weight: 700;
+}
+.fw-8{
+    font-weight: 800;
+}
+.fw-4{
+    font-weight: 400;
 }
  
 
@@ -142,6 +165,9 @@
 .p-30{
     padding: 30px;
 }
+.p-50{
+    padding: 50px;
+}
 .p-5{
     padding: 5px;
 }
@@ -152,6 +178,12 @@
     padding: 5px 12px;
     font-size: 1.25rem;
     line-height: 1;
+}
+.p-2{
+    padding: 4px 16px;
+}
+.p-3{
+    padding: 16px 24px;
 }
 .pl{
     padding-left: 0px;
@@ -185,6 +217,9 @@
 .mb-5{
     margin-bottom: 10px;
 }
+.mb-15{
+    margin-bottom: 15px;
+}
 .ml-20{
     margin-left: 20px;
 }
@@ -195,6 +230,13 @@
 }
 .text-center{
     text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.overflow{
+    overflow: hidden;
 }
  
 
@@ -246,6 +288,21 @@
 }
 .font5{
     font-size: 4rem;
+}
+.font6{
+    font-size: 20px;
+}
+.font7{
+    font-size: 45px;
+}
+.font8{
+    font-size: 16px;
+}
+.font9{
+    font-size: 61px;
+}
+.font10{
+    font-size: 24px;
 }
 
 .open{
@@ -310,7 +367,7 @@
     position: absolute;
     z-index: 2;
     top: 280px;
-    left: 15px;
+    left: 0px;
     transform: rotate(25deg);
     background:#111;
 }
@@ -320,10 +377,57 @@
     position: absolute;
     z-index: 2;
     top: 280px;
-    right: 15px;
+    right: 0px;
     transform: rotate(-25deg);
     background:#111;
 }
 .box img{
     z-index: 2;
 }
+
+.border-line{
+    border-width: 2px;
+}
+.border-color{
+    border-color: #fdf001;
+}
+.display-inline{
+    display: inline-block;
+}
+
+
+.box4{
+    background-color: #F5F6F6;
+    width: 160px;
+    height: 200px;
+    padding: 35px 35px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    top: -0px;
+    right: 0px;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove{
+    0%{
+        top: -202px;
+    }
+    100%{
+        top: 700px;
+    }
+}
+
+.services{
+    width: 130px;
+    height: 130px;
+    background:#111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    position: relative;
+    border-radius: 50%;
+}
+
