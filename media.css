@@ -124,6 +124,9 @@
     .w-350{
         width: 200px;
     }
+    .h-8{
+        height: 500px;
+    }
 }
 
 
@@ -191,17 +194,27 @@
     }
 
     .box3{
-        top: 273px;
+        top: 170px;
         right: 19px;
     }
     .box2{
-        top: 273px;
+        top: 170px;
         right: 19px;
     }
     .w-350{
-        width: 200px;
+        width: 150px;
     }
     .w-70{
         width: 100%;
     }
+    .h-8{
+        height: 450px;
+    }
+    .h-7{
+        height: 500px;
+    }
+    .box1::before{
+        top: 240px;
+    }
+
 }
