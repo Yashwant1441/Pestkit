@@ -243,7 +243,21 @@
 .p-7{
     padding: 48px 12px;
 }
-
+.p-9{
+    padding: 24px 24px 8px;
+}
+.p-10{
+    padding: 0px 24px;
+}
+.p-11{
+    padding: 6px 12px;
+}
+.p-12{
+    padding: 8px 22px;
+}
+.p-13{
+    padding: 6px 12px 6px 0px;
+}
 
 .mt-40{
     margin-top: 40px;
@@ -290,6 +304,9 @@
 .mb-4{
     margin-bottom: 4px;
 }
+.m-1{
+    margin: 6px 0px;
+}
 
 
 .text-end{
@@ -318,6 +335,9 @@
 }
 .fluid4{
     color: #fff
+}
+.fluid8{
+    color: rgba(255, 255, 255, .7);
 }
 .fluid5{
     color: #198754 !important
@@ -676,4 +696,28 @@
 .slick-next:before{
     color: #111 !important;
     font-size: 22px !important;
+}
+.text-start{
+    text-align: start;
+}
+.middle2{
+    justify-content: space-between;
+}
+
+.slider1 slick-prev{
+    background-color: #fdf001 !important;
+    width: 60px !important;
+    height: 30px !important;
+    border-radius: 20px 0px 0px 20px;
+}
+.slider1 slick-prev:before{
+    color: #111 !important;
+    font-size: 22px !important;
+}
+.text-capital{
+    text-transform: capitalize;
+}
+
+.hover:hover{
+    color: #fdf001;
 }
