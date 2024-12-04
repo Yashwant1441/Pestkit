@@ -82,6 +82,15 @@
         top: 303px;
         right: 10px;
     }
+    .h-0{
+        height: auto;
+    }
+    .mb{
+        margin-bottom: 40px;
+    }
+    .pb{
+        padding-bottom: 40px;
+    }
 }
 
 
@@ -172,6 +181,15 @@
     .p-30{
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .pt-10{
+        padding-top: 10px;
+    }
+    .tc{
+        text-align: center;
+    }
+    .m-b{
+        margin-bottom: 20px;
     }
 
 }

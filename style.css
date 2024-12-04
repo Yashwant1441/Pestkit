@@ -21,7 +21,7 @@
 .container{
     max-width: 1320px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .container1{
     width: 100%;
@@ -60,6 +60,9 @@
 }
 .border-radius1{
     border-radius: 0 0 300px 300px;
+}
+.border-radius2{
+    border-radius: 0px 0px 10px 10px;
 }
 .border-radius{
     border-radius: 20px ;
@@ -258,6 +261,20 @@
 .p-13{
     padding: 6px 12px 6px 0px;
 }
+.p-14{
+    padding: 6px 12px 16px 0px;
+}
+.p-15{
+    padding: 24px 12px;
+}
+.p-16{
+    padding: 0px 12px;
+}
+.p-17{
+    padding: 10px 15px;
+}
+
+
 
 .mt-40{
     margin-top: 40px;
@@ -403,8 +420,11 @@
 .font11{
     font-size: 40px;
 }
-.font11{
+.font12{
     font-size: 32px;
+}
+.font13{
+    font-size: 1rem;
 }
 
 .open{
@@ -649,14 +669,14 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    transition: .2s;
+    transition: 0.3s;
 }
 .box:hover .box11{
-    left: 200px;
+    transform: translateX(200px);
 }
 
 .ime2{
-    background-image: url(Images/footer/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Images/footer/carousel-2.jpg) center center no-repeat;
     width: 100%;
     background-size: cover;
 }
@@ -720,4 +740,18 @@
 
 .hover:hover{
     color: #fdf001;
+}
+.border-bottom{
+    border-bottom: 2px solid rgba(255, 255, 255, .7);
+}
+.box12{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-right{
+    text-align: right;
 }
