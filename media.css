@@ -91,6 +91,14 @@
     .pb{
         padding-bottom: 40px;
     }
+    .slick .slick-next{  
+        width: 80px !important;
+        height: 40px !important;
+    }
+    .slick .slick-prev{
+        width: 80px !important;
+        height: 40px !important;
+    }
 }
 
 
@@ -135,6 +143,23 @@
     }
     .h-8{
         height: 500px;
+    }
+    .slick .slick-next{  
+        width: 40px !important;
+        height: 20px !important;
+    }
+    .slick .slick-prev{
+        width: 40px !important;
+        height: 20px !important;
+    }
+    .font14{
+        font-size: 30px;
+    }
+    .sel2 h4{
+        font-size: 20px;
+    }
+    .sel1 h4{
+        font-size: 20px;
     }
 }
 
@@ -191,7 +216,23 @@
     .m-b{
         margin-bottom: 20px;
     }
-
+    .slick .slick-next{  
+        width: 60px !important;
+        height: 30px !important;
+    }
+    .slick .slick-prev{
+        width: 60px !important;
+        height: 30px !important;
+    }
+    .font14{
+        font-size: 50px;
+    }
+    .sel2 h4{
+        font-size: 24px;
+    }
+    .sel1 h4{
+        font-size: 24px;
+    }
 }
 
 @media(max-width:390px) {
@@ -234,5 +275,32 @@
     .box1::before{
         top: 240px;
     }
+    .slick .slick-next{  
+        width: 30px !important;
+        height: 15px !important;
+    }
+    .slick .slick-prev{
+        width: 30px !important;
+        height: 15px !important;
+    }
+    .font14{
+        font-size: 20px;
+    }
+    .sel2 h4{
+        font-size: 16px;
+    }
+    .sel1 h4{
+        font-size: 16px;
+    }
+    .slick .slick-next:before {
+        color: white !important;
+        font-size: 12px !important;
+    }
+    
+    .slick .slick-prev:before {
+        color: white !important;
+        font-size: 12px !important;
+    }
+    
 
 }
