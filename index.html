@@ -48,7 +48,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 p-0 w-15 lg-1">
+                    <div class="p-1 p-0 w-15 lg-1 text-center">
                         <div class="box mt-10 mb-5 mb-0 mt-0 pb-10">
                             <a class="fluid2 font1" href="">
                                 <i class="fa-solid fa-envelope fluid3 "></i>
@@ -136,18 +136,51 @@
     </header>
 
 
-    <!-- <section>
-        <div class="container1 border">
-            <div class="single-item">
-                    <div class="box">
-                        <img class="object" width="100%" height="100%" src="Images/slider/carousel-1.jp" alt="">
+    <section>
+        <div class="container1">
+            <div class="slick">
+                <div class="box relative color">
+                    <img style="width: 100%;" src="Images/slider/carousel-1.jpg" alt="">
+                    <div class="sel1 d-flex1">
+                        <h4 class="mb-24 fluid4 nunito fw-7 lh font10 text">
+                            No 1 Pest Control Services
+                        </h4>
+
+                        <h1 class="mb-24 font14 nunito fluid4 fw-8 lh">
+                            Enjoy Your Home <br/>
+                             Totally Pest Free
+                        </h1>
+
+                        <div>
+                            <button class="bg3 p-4 fluid3 display-inline font8 open border-radius50 border0">
+                                READ MORE
+                            </button>
+                        </div>
                     </div>
-                <div class="p-10">
-                    <div class="box">123456789</div>
+                </div>
+
+                <div class="box relative">
+                    <img style="width: 100%;" src="Images/slider/carousel-2.jpg" alt="">
+                    <div class="sel2 d-flex1">
+                        <h4 class="mb-24 fluid4 nunito fw-7 lh font10 text">
+                            No 1 Pest Control Services
+                        </h4>
+
+                        <h1 class="mb-24 font14 nunito fluid4 fw-8 lh">
+                            Enjoy Your Home <br/>
+                             Totally Pest Free
+                        </h1>
+
+                        <div>
+                            <button class="bg3 p-4 fluid3 display-inline font8 open border-radius50 border0">
+                                READ MORE
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- --------------------find pets--------------------------- -->
 
@@ -726,8 +759,8 @@
                             <div class="w-2 middle1 text-center md-1">
                                 <img width="80%" class="border-radius50per p" src="Images/pic/action.jpg" alt="">
                             </div>
-                            <div class="w-2 text-center md-1">
-                                <div class="middle d-flex1">
+                            <div class="w-2 text-center md-1 d-flex">
+                                <div class="middle3 d-flex1">
                                     <h1 class="font11 nunito mb-5 fluid4 fw-7 lh pb-24 fw-7 lh">
                                         Sign Up To Our Newsletter To Get The Latest Offers
                                     </h1>
@@ -1322,10 +1355,10 @@
 
                     <div class="w-3 p-16 lg-1 m-b">
                         <div class="box tc fluid4 open font8 text-right">
-                            Designed By 
+                            Designed By
                             <a class="fluid1" href="">HTML Codex</a>
-                            <br/>
-                            Distributed By 
+                            <br />
+                            Distributed By
                             <a class="fluid1" href="">ThemeWagon</a>
                         </div>
                     </div>
@@ -1414,6 +1447,41 @@
     </script>
 
     <script>
-        $('.single-item').slick();
+        $('.slick').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
     </script>
+
 </body>
