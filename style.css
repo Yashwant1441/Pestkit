@@ -679,8 +679,22 @@
 }
 
 .services {
-    width: 130px;
-    height: 130px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .9s;
+    position: relative;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.services1 {
+   
     background: #111;
     display: flex;
     align-items: center;
@@ -688,6 +702,9 @@
     transition: .5s;
     position: relative;
     border-radius: 50%;
+    /* border: 1px solid red; */
+     width: 130px;
+     height: 130px;
 }
 
 
@@ -720,7 +737,7 @@
     height: 100px;
     position: absolute;
     z-index: 2;
-    top: 55px;
+    top: 57px;
     left: 5px;
     transform: rotate(25deg);
     background: #111;
@@ -732,7 +749,7 @@
     height: 100px;
     position: absolute;
     z-index: 2;
-    top: 55px;
+    top: 57px;
     right: 5px;
     transform: rotate(-25deg);
     background: #111;
@@ -819,6 +836,20 @@
 
 .box:hover .box11 {
     transform: translateX(200px);
+}
+.box:hover .services {
+    transform:translate(-50% -50%) rotate(360deg);
+    background-color: #fdf001;
+    color: #111;
+    width: 130px;
+    height: 130px;
+}
+
+.fa-spider{
+    transition: 0.9s;
+}
+.box:hover .fa-spider{
+    transform: rotate(360deg);
 }
 
 .ime2 {
